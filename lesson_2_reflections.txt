@@ -1,0 +1,2 @@
+What happens whn you initialize a repository? Why do you need to do it?
+The .git folder gets created. The folder tells git that a reporsitory is present and it shoud keep track of file changes.
