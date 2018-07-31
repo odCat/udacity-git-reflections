@@ -16,3 +16,8 @@ What are some situations when branches would be helpful in keeping your
 history organized? How would branches help?
 Branches are usefull when there are multiple contributors wanting to explore multiple development paths (e.g. bug fixing, new features, code refactoring).
 The developers can moves at their own pace in their respective branches and when they finalize they can merge the changes into the main branch. The history of the main branch remain clean and anyone can understand the project flow.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams show you the cronological order of commits and from which
+commits branches divert from.
+
