@@ -11,3 +11,8 @@ How can you use the staging area to make sure you have one commit per logical
 change?
 You make sure by staging only the changes that make a logical unit first, then
 commit them. Then you repeat the process with another set of changes etc.
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+Branches are usefull when there are multiple contributors wanting to explore multiple development paths (e.g. bug fixing, new features, code refactoring).
+The developers can moves at their own pace in their respective branches and when they finalize they can merge the changes into the main branch. The history of the main branch remain clean and anyone can understand the project flow.
