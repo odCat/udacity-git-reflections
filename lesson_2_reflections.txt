@@ -21,3 +21,8 @@ How do the diagrams help you visualize the branch structure?
 The diagrams show you the cronological order of commits and from which
 commits branches divert from.
 
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+The result is we now have many changes, results of multiple development paths, present in one commit.
+This merge commit has two parents, that is why it is represented with two
+branches merging into it.
