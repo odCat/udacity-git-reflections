@@ -1,28 +1,45 @@
-What happens whn you initialize a repository? Why do you need to do it?
-The .git folder gets created. The folder tells git that a reporsitory is present and it shoud keep track of file changes.
+Q: What happens whn you initialize a repository? Why do you need to do it?
+A: The .git folder gets created. The folder tells git that a reporsitory is present
+and it shoud keep track of file changes.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
-The staging area is an intermediary state between the working directory and the repository; it is the only part of the working directory that will be committed to the repository, but until the next commit is still not part of the repository.
-The staging area provides flexibility; A commit can contain only a part of the total changes made to the working directory, while the rest might be commited later; this can help maintain the logical consistency of the commits.
-Also the commit process is resource efficient because it takes in only the staged changes instead of the whole directory.
+Q: How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+A: The staging area is an intermediary state between the working directory and the
+repository; it is the only part of the working directory that will be committed to
+the repository, but until the next commit is still not part of the repository.
+The staging area provides flexibility; A commit can contain only a part of the
+total changes made to the working directory, while the rest might be commited later;
+this can help maintain the logical consistency of the commits.
+Also the commit process is resource efficient because it takes in only the staged
+changes instead of the whole directory.
 
-How can you use the staging area to make sure you have one commit per logical change?
-You make sure by staging only the changes that make a logical unit first, then
+Q: How can you use the staging area to make sure you have one commit per logical
+change?
+A: You make sure by staging only the changes that make a logical unit first, then
 commit them. Then you repeat the process with another set of changes etc.
 
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-Branches are usefull when there are multiple contributors wanting to explore multiple development paths (e.g. bug fixing, new features, code refactoring).
-The developers can moves at their own pace in their respective branches and when they finalize they can merge the changes into the main branch. The history of the main branch remain clean and anyone can understand the project flow.
+Q: What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+A: Branches are usefull when there are multiple contributors wanting to explore
+multiple development paths (e.g. bug fixing, new features, code refactoring).
+The developers can moves at their own pace in their respective branches and when
+they finalize they can merge the changes into the main branch. The history of the
+main branch remain clean and anyone can understand the project flow.
 
-How do the diagrams help you visualize the branch structure?
-The diagrams show you the cronological order of commits and from which commits branches divert from.
+Q: How do the diagrams help you visualize the branch structure?
+A: The diagrams show you the cronological order of commits and from which commits
+branches divert from.
 
-What is the result of merging two branches together? Why do we represent it in
+Q: What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-The result is we now have many changes, results of multiple development paths, present in one commit.
-This merge commit has two parents, that is why it is represented with two
-branches merging into it.
+A: The result is we now have many changes, results of multiple development paths,
+present in one commit.
+This merge commit has two parents, that is why it is represented with two branches
+merging into it.
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
+Q: What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
-Git almost strikes the perfect balance between automatic and manual merging. Doing merges always automatically can cause problems difficult to debug. Meanwhile when a merge confict arises it is relatively easy to be resolved once the developers have a discussion.
+A: Git almost strikes the perfect balance between automatic and manual merging.
+Doing merges always automatically can cause problems difficult to debug. Meanwhile
+when a merge confict arises it is relatively easy to be resolved once the
+developers have a discussion.
