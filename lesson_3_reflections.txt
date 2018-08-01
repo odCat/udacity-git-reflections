@@ -26,3 +26,9 @@ Q: How would you collaborate without using Git or GitHub? What would be
 easier, and what would be harder?
 A: I would send my changes through email and have the project maintainer
 merge them. It is much easier with Git and GitHub.
+
+Q: When would you want to make changes in a separate branch rather than in
+master? What benefits does each approach have?
+A: I would use a separate branch when the changes are to radical or
+experimental. Using separate branches can be safer, while commiting to main
+is more straightforward.
