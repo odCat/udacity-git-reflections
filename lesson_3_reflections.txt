@@ -8,3 +8,16 @@ automatically stay up-to-date with your remote repository?
 A: Once you start working on a project you don't want it to change in ways it
 might or might not affect your work. It is my opinion it is better to pull
 manually after you are finished.
+
+Q: Describe the differences between forks, clones and branches. When would
+you use one instead of another?
+A: Branches are made locally to explore different and possbily risky
+development paths. Clones are copies of remote repositories. Forking is a
+GitHub feature that is similar to cloning, but keeps the fork repository
+permanently linked to the initial project. That way the original developer
+gets recognition.
+
+Q: What is the benefit of having a copy of the last known state of the remote
+stored locally?
+A: The benefit is that you can see if the last state of the remote is
+compatible with your changes.
